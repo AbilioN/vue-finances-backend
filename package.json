@@ -1,0 +1,23 @@
+{
+  "name": "vue-finances-backend",
+  "version": "1.0.0",
+  "description": "Back end applicatio for my app vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbilioN/vue-finances-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbilioN/vue-finances-backend/issues"
+  },
+  "homepage": "https://github.com/AbilioN/vue-finances-backend#readme",
+  "dependencies": {
+    "prisma-client-lib": "1.28.3"
+  }
+}
