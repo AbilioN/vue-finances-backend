@@ -1,3 +1,4 @@
 src/generated/
 # basta rodar prisma generate
 node_modules/
+.env*
