@@ -7,7 +7,16 @@ const resolvers  = {
         user(parent, args, context, info){
             return prisma.user({id: args.id});
         }
+    },
+    User: {
+        id(parent, args, context, info){
+            return parent.id;
+        },
+        name(_, args, context, info){
+            return _.name;
+        }
     }
+
 }
 
 
@@ -20,3 +29,5 @@ const server = new GraphQLServer({
 
 
 server.start().then(() => console.log('server running on http://localhost:4000...'));
+// server.start().then(() => console.log(__dirname));
+
