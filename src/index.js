@@ -8,7 +8,7 @@ const resolvers  = {
             // return prisma.user({id: args.id});
             return {
                 id : 'blablabla',
-                name: 'Docker'
+                name: 'Dockersdsdsd'
             }
         }
     },
