@@ -8,6 +8,8 @@ services:
     command: npm start
     environment: 
       PRISMA_ENDPOINT: http://prisma:4466
+    volumes:
+      - .:/usr/app
   
   prisma:
     image: prismagraphql/prisma:1.28
