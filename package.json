@@ -4,8 +4,8 @@
   "description": "Back end applicatio for my app vue.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index",
-    "dev": "npx nodemon --legacy-watch --delay 1000ms --ext js,graphql src/index"
+    "start": "node src/index.js",
+    "dev": "npx nodemon --legacy-watch --delay 1000ms --ext js,graphql src/index.js"
   },
   "repository": {
     "type": "git",
